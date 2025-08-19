@@ -68,3 +68,12 @@ footer {
   font-weight: bold;
   border-top: 3px solid #333;
 }
+footer {
+  background: url("footer.jpg") no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 3px solid #333;
+}
