@@ -48,3 +48,14 @@ footer {
     color: #fff;
     padding: 15px 0;
 }
+header {
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
