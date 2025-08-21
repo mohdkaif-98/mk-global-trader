@@ -34,7 +34,27 @@ body {
     font-size: 1.8rem;
     margin-bottom: 20px;
     color: #222;
+}/* Footer Styling */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
 }
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
 
 .points {
     list-style: none;
