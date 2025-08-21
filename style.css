@@ -70,17 +70,24 @@ footer a:hover {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-/* Footer */
-.site-footer {
+/* Footer Styling with Background */
+footer {
     background: url('footer.jpg') no-repeat center center;
     background-size: cover;
-    text-align: center;
-    color: white;
-    padding: 30px 20px;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
 }
 
-.site-footer a {
-    color: #ffeb3b;
+footer a {
+    color: #fff;
     text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
